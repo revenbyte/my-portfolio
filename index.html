@@ -3,8 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ | Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">EJ.</div>
+
+        <nav class="floating-navbar">
+            <ul class="nav-links">
+                <li><a href="#" class="active"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-cogs"></i><span>Services</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Elijah</h1>
+            <h3>Full Stack Developer</h3>
+            <p>A passionate Computer Science student and Full Stack Developer dedicated to building clean, responsive user interfaces. I love turning complex logic into interactive, seamless digital experiences that look elite on any screen.</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-twitch'></i></a>
+        </div>
+
+        <span class="home-imghover"></span>
+    </section>
+
+    <script>
+            let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            // This toggles the 'active' class on the navbar
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -40,4 +108,4 @@
     </section>
     <script src="script.js"></script>
 </body>
-</html>
+</html> -->
